@@ -46,10 +46,12 @@
         android:id="@+id/botaoInserirContato"
         android:layout_width="195dp"
         android:layout_height="60dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginBottom="28dp"
         android:onClick="onClick"
         android:text="@string/botaoInserir"
-        tools:layout_editor_absoluteX="76dp"
-        tools:layout_editor_absoluteY="235dp" />
+        app:layout_constraintBottom_toTopOf="@+id/botaoEnviarEmail"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/botaoEnviarEmail"

@@ -1,5 +1,8 @@
 package com.example.pedro.helloworld;
 
+import android.content.Intent;
+import android.content.pm.PackageManager;
+import android.content.pm.ResolveInfo;
 import android.graphics.Bitmap;
 import android.graphics.drawable.Drawable;
 import android.net.Uri;
@@ -22,6 +25,8 @@ import com.facebook.share.model.SharePhotoContent;
 import com.facebook.share.widget.ShareDialog;
 import com.squareup.picasso.Picasso;
 import com.squareup.picasso.Target;
+
+import java.util.List;
 
 
 public class redeSocial extends AppCompatActivity {
@@ -143,6 +148,22 @@ public class redeSocial extends AppCompatActivity {
         if(v.getId() == R.id.botaoVoltar){
             this.finish();
         }
+        else {
+        }/*
+        else if(v.getId() == R.id.botaoLinkedin) {
+            public void openUserProfile(){
+                DeepLinkHelper deepLinkHelper = DeepLinkHelper.getInstance();
+                deepLinkHelper.openCurrentProfile(MainActivity.this, new DeepLinkListener() {
+                    @Override
+                    public void onDeepLinkSuccess() {
+                    }
+
+                    @Override
+                    public void onDeepLinkError(LIDeepLinkError error) {
+                    }
+                });
+            }*/
     }
+
 
 }

@@ -13,5 +13,11 @@
     <string name="txtEmailContato">Email of contact</string>
     <string name="txtView2">Send a message through Whatsapp</string>
     <string name="txtMensagem">Write a message</string>
-    <string name="facebook_app_id">Facebook</string>
+    <string name="facebook_app_id">889947531214431</string>
+    <string name="facebook_login_protocol_scheme">fb889947531214431</string>
+    <string name="botaoCompFoto">Share photo</string>
+    <string name="botaoCompLink">Share link</string>
+    <string name="compComSucesso">Share sucessful</string>
+    <string name="compCancelado">Share cancel</string>
+
 </resources>

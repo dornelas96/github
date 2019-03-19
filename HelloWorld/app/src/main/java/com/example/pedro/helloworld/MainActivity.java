@@ -3,6 +3,7 @@ package com.example.pedro.helloworld;
 import android.content.Intent;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
+import android.content.pm.Signature;
 import android.icu.text.DateIntervalInfo;
 import android.net.Uri;
 import android.os.CountDownTimer;
@@ -10,12 +11,15 @@ import android.provider.ContactsContract;
 import android.provider.Telephony;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Base64;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
 import java.sql.Timestamp;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -105,6 +109,10 @@ public class MainActivity extends AppCompatActivity {
         else if(v.getId() == R.id.botaoCriarContato) {
             Intent itTelaCriarContato = new Intent(this, telaContato.class);
             startActivity(itTelaCriarContato);
+        }
+        else if(v.getId() == R.id.botaoRedeSocial) {
+            Intent itTelaRedeSocial = new Intent(this, redeSocial.class);
+            startActivity(itTelaRedeSocial);
         }
     }
 

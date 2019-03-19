@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".redeSocial">
+
+    <Button
+        android:id="@+id/botaoVoltar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="17dp"
+        android:text="@string/botaoVoltar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/botaoCompLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="228dp"
+        android:layout_marginEnd="11dp"
+        android:text="@string/botaoCompLink"
+        app:layout_constraintEnd_toStartOf="@+id/botaoCompFoto"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/botaoCompFoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="228dp"
+        android:layout_marginEnd="20dp"
+        android:text="@string/botaoCompFoto"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/botaoCompLink"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txtLink"
+        android:layout_width="305dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="33dp"
+        android:ems="10"
+        android:hint="Digite o link"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txtComentario"
+        android:layout_width="305dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="46dp"
+        android:layout_marginBottom="20dp"
+        android:ems="10"
+        android:hint="Digite o comentario"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/textFacebook"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtLink" />
+
+    <TextView
+        android:id="@+id/textFacebook"
+        android:layout_width="111dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="136dp"
+        android:layout_marginBottom="5dp"
+        android:text="Facebook"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/botaoCompLink"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/botaoInstagram"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginBottom="154dp"
+        android:text="Instagram"
+        app:layout_constrainedHeight="true"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/botaoCompLink" />
+</android.support.constraint.ConstraintLayout>

@@ -12,5 +12,10 @@
     <string name="txtEmailContato">Email do contato</string>
     <string name="txtView2">Enviar mensagem pelo WhatsApp</string>
     <string name="txtMensagem">Digite a mensagem</string>
-    <string name="facebook_app_id">Facebook</string>
+    <string name="facebook_app_id">889947531214431</string>
+    <string name="facebook_login_protocol_scheme">fb889947531214431</string>
+    <string name="botaoCompFoto">Compartilhar Foto</string>
+    <string name="botaoCompLink">Compartilhar link</string>
+    <string name="compComSucesso">Compartilhado com sucesso</string>
+    <string name="compCancelado">Compartilhamento cancelado</string>
 </resources>

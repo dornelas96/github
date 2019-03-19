@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteY="81dp">
 
     <TextView
         android:id="@+id/olamundo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginRight="16dp"
-        android:layout_marginBottom="108dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="176dp"
         android:text="Hello World!"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintRight_toRightOf="parent" />
@@ -25,6 +25,7 @@
         android:layout_marginEnd="24dp"
         android:onClick="onClick"
         android:text="@string/botaoLigar"
+        android:visibility="invisible"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -33,7 +34,7 @@
         android:layout_width="64dp"
         android:layout_height="47dp"
         android:layout_marginEnd="24dp"
-        android:layout_marginBottom="44dp"
+        android:layout_marginBottom="116dp"
         android:text="Time"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
@@ -42,10 +43,11 @@
         android:id="@+id/botaoEnviarMensagem"
         android:layout_width="194dp"
         android:layout_height="48dp"
-        android:layout_marginStart="124dp"
-        android:layout_marginTop="124dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="456dp"
         android:onClick="onClickWhatsApp"
         android:text="@string/botaoEnviarMensagem"
+        android:visibility="invisible"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -53,11 +55,12 @@
         android:id="@+id/textMensagem"
         android:layout_width="306dp"
         android:layout_height="41dp"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="68dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="404dp"
         android:ems="10"
         android:hint="@string/txtMensagem"
         android:inputType="textPersonName"
+        android:visibility="invisible"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -65,9 +68,10 @@
         android:id="@+id/textView2"
         android:layout_width="219dp"
         android:layout_height="24dp"
-        android:layout_marginStart="100dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="368dp"
         android:text="@string/txtView2"
+        android:visibility="invisible"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -80,6 +84,7 @@
         android:ems="10"
         android:hint="@string/txtTel"
         android:inputType="textPersonName"
+        android:visibility="invisible"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -87,33 +92,33 @@
         android:id="@+id/botaoTelaEmail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="160dp"
-        android:layout_marginBottom="76dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="68dp"
         android:onClick="onClick"
         android:text="@string/botaoEmail"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/botaoCriarContato" />
 
     <Button
         android:id="@+id/botaoCriarContato"
         android:layout_width="wrap_content"
         android:layout_height="47dp"
-        android:layout_marginStart="60dp"
-        android:layout_marginBottom="212dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="23dp"
         android:onClick="onClick"
         android:text="@string/botaoCriarContato"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/botaoRedeSocial"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="60dp"
-        android:layout_marginBottom="212dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="32dp"
         android:onClick="onClick"
         android:text="Redes Sociais"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </android.support.constraint.ConstraintLayout>

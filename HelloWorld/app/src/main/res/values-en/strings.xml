@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Dornas inc</string>
+    <string name="botaoInserir">Add Contact</string>
+    <string name="botaoVoltar">Back</string>
+    <string name="botaoEnviarMensagem">Send message</string>
+    <string name="botaoEnviarEmail">Send email</string>
+    <string name="botaoLigar">Call</string>
+    <string name="botaoCriarContato">Add new contact</string>
+    <string name="botaoEmail">Email</string>
+    <string name="txtTel">Write phone</string>
+    <string name="txtNomeContato">Name of contact</string>
+    <string name="txtEmailContato">Email of contact</string>
+    <string name="txtView2">Send a message through Whatsapp</string>
+    <string name="txtMensagem">Write a message</string>
+    <string name="facebook_app_id">Facebook</string>
+</resources>

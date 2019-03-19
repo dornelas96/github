@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Dornas Inc</string>
+    <string name="botaoInserir">Inserir contato</string>
+    <string name="botaoVoltar">Voltar</string>
+    <string name="botaoEnviarMensagem">Enviar mensagem</string>
+    <string name="botaoEnviarEmail">Enviar email</string>
+    <string name="botaoLigar">Ligar</string>
+    <string name="botaoCriarContato">Criar contato</string>
+    <string name="botaoEmail">Email</string>
+    <string name="txtTel">Digite o telefone</string>
+    <string name="txtNomeContato">Nome do contato</string>
+    <string name="txtEmailContato">Email do contato</string>
+    <string name="txtView2">Enviar mensagem pelo WhatsApp</string>
+    <string name="txtMensagem">Digite a mensagem</string>
+    <string name="facebook_app_id">Facebook</string>
+</resources>
